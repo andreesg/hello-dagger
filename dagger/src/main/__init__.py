@@ -52,7 +52,7 @@ class HelloDagger:
             dag.container()
             .from_("nginx:1.25-alpine")
             .with_directory("/usr/share/nginx/html", build)
-            .with_exposed_port(80)
+            .with_exposed_port(8080)
         )
 
     @function
