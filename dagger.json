@@ -1,6 +1,12 @@
 {
   "name": "hello-dagger",
   "sdk": "python",
+  "dependencies": [
+    {
+      "name": "node",
+      "source": "github.com/dagger/dagger/sdk/typescript/dev/node@f1aa5e117e163449208519ce6c6b1dbdb8ef5d79"
+    }
+  ],
   "source": "dagger",
   "engineVersion": "v0.11.7"
 }
